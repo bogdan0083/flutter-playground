@@ -2,7 +2,9 @@ import 'package:flutter/material.dart';
 import './examples/random_words.dart';
 import './examples/layout_demo.dart';
 
-void main() => runApp(MyApp());
+void main() {
+  runApp(MyApp());
+}
 
 final Map<String, WidgetBuilder> routes = {
   '/random_words': (BuildContext context) => RandomWords(),
